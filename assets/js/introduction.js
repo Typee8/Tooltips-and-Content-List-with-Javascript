@@ -1,4 +1,3 @@
-const tooltipListTest = document.querySelector(".tooltip");
 const tooltipList = document.querySelectorAll(".tooltip");
 
 tooltipList.forEach(function (element) {
