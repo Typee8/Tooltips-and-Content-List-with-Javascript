@@ -2,20 +2,20 @@ const list = [
   {
     id: 1,
     parentId: null,
-    text: "Zastosowanie",
-    link: "#Zastosowanie",
+    text: "Usage",
+    link: "#Usage",
   },
   {
     id: 44,
     parentId: null,
-    text: "Historia",
-    link: "#Historia",
+    text: "History",
+    link: "#History",
   },
   {
     id: 7,
     parentId: 44,
-    text: "Dialekty",
-    link: "#Dialekty",
+    text: "Dialects",
+    link: "#Dialects",
   },
   {
     id: 31,
@@ -26,44 +26,20 @@ const list = [
   {
     id: 24,
     parentId: null,
-    text: "JavaScript dla WWW",
-    link: "#JavaScript_dla_WWW",
+    text: "JavaScript for WWW",
+    link: "#JavaScript_for_WWW",
   },
   {
     id: 10,
     parentId: 24,
-    text: "Interakcja",
-    link: "#Interakcja",
+    text: "Interaction",
+    link: "#Interaction",
   },
   {
     id: 25,
     parentId: 24,
-    text: "Osadzanie",
-    link: "#Osadzanie",
-  },
-  {
-    id: 60,
-    parentId: null,
-    text: "TestParent",
-    link: "#",
-  },
-  {
-    id: 61,
-    parentId: 60,
-    text: "Testchild1",
-    link: "#",
-  },
-  {
-    id: 62,
-    parentId: 60,
-    text: "Testchild2",
-    link: "#",
-  },
-  {
-    id: 63,
-    parentId: 60,
-    text: "Testchild3",
-    link: "#j",
+    text: "Embedding",
+    link: "#Embedding",
   },
 ];
 
@@ -110,13 +86,13 @@ function createContentList(element, parent) {
   li.appendChild(a);
 }
 
-function createChildrenList (element) {
-    const id = Number(element.dataset.id);
-    const childrenList = [];
-    list.forEach(function (elem) {
-      if (elem.parentId === id) {
-        return childrenList.push(elem);
-      }
-    });
-    return childrenList;
+function createChildrenList(element) {
+  const id = Number(element.dataset.id);
+  const childrenList = [];
+  list.forEach(function (elem) {
+    if (elem.parentId === id) {
+      return childrenList.push(elem);
+    }
+  });
+  return childrenList;
 }
