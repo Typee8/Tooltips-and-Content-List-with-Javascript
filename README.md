@@ -11,7 +11,7 @@ This time I had to create tooltips for words wrapped with `<span class="tooltip"
 
 #### [1) Challenges:](#1-challenges)
 
-[1. Function decomposition](#function-decomposition)
+[1. Function decomposition](#function-decomposition)<br>
 [2. Function parameters with the same name](#function-parameters-with-the-same-name)
 
 #### [2) Gained knowledge](#gained-knowledge)
