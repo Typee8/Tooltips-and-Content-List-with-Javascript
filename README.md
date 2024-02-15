@@ -1,6 +1,6 @@
-![Tooltips and Content List with Javascript](./README-assets/task-js-dom-elements.gif)
+[![Tooltips and Content List with Javascript](./README-assets/task-js-dom-elements.gif)](https://typee8.github.io/Tooltips-and-Content-List-with-Javascript/)
 
-# Tooltips and Content List with Javascript
+# [Tooltips and Content List with Javascript](https://typee8.github.io/Tooltips-and-Content-List-with-Javascript/)
 
 The project is the conclusion of **5th chapter** (there's **20**) of [devmentor.pl](https://devmentor.pl/mentoring-javascript) mentoring program which focuses on Javascript.
 
